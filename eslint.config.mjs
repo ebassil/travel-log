@@ -16,6 +16,7 @@ export default withNuxt(
       semi: true,
       quotes: "double",
     },
+    ignores: ["**/migrations/**", "**/node_modules/**", "**/.nuxt/**"],
   }, {
     rules: {
       "ts/no-redeclare": "off",
